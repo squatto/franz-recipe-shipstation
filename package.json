@@ -1,0 +1,15 @@
+{
+  "id": "shipstation",
+  "name": "ShipStation",
+  "version": "1.0.0",
+  "description": "ShipStation",
+  "main": "index.js",
+  "author": "Scott Carpenter <scott@payforstay.com>",
+  "license": "MIT",
+  "repository": "https://github.com/squatto/franz-recipe-shipstation",
+  "config": {
+    "serviceURL": "https://{teamId}.shipstation.com",
+    "hasTeamId": true,
+    "urlInputSuffix": ".shipstation.com"
+  }
+}
