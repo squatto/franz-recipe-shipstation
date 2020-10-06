@@ -2,7 +2,7 @@
 
 This is an unofficial Franz/Ferdi recipe for [ShipStation](https://shipstation.com).
 
-The badge on the service icon will show the number of orders that are "Awaiting Shipment".
+The badge on the service icon will show the number of orders that are "Awaiting Shipment" or "On Hold".
 
 [GitHub repo](https://github.com/squatto/franz-recipe-shipstation)
 

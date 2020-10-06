@@ -20,6 +20,14 @@ module.exports = Franz => {
           .replace(',', ''),
         10,
       );
+      unread += parseInt(
+        contains('#workflow span.tray-display-name', 'On Hold')[0]
+          .parentElement
+          .querySelector('.status-count')
+          .innerText
+          .replace(',', ''),
+        10,
+      );
     } catch (e) {
       // unable to find order count
     }
