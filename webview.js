@@ -13,18 +13,18 @@ module.exports = Franz => {
 
     try {
       unread = parseInt(
-        contains('#workflow span.tray-display-name', 'Awaiting Shipment')[0]
-          .parentElement
-          .querySelector('.status-count')
-          .innerText
+        contains('#app-root a', 'Awaiting Shipment')[0]
+          .nextSibling
+          .children[0]
+          .textContent
           .replace(',', ''),
         10,
       );
       unread += parseInt(
-        contains('#workflow span.tray-display-name', 'On Hold')[0]
-          .parentElement
-          .querySelector('.status-count')
-          .innerText
+        contains('#app-root a', 'On Hold')[0]
+          .nextSibling
+          .children[0]
+          .textContent
           .replace(',', ''),
         10,
       );
